@@ -10,20 +10,19 @@ This is a beta version of properties and callbacks for Vide Player lib. This doc
     continousPlay: boolean = {true} // default: false
     thumbnailScrubber: boolean = {true} // show thumbnails on top of progress bar / default: false
 
-    controls: Object = {
-        enablePlayButton: boolean, // default: true
-        enablePauseButton: boolean, // default: true
-        enableStopButton: boolean, // default: false
-        enablePlaybackSpeedControls: boolean, // default: false
-        enableStartOver: boolean, // default: false
-        adsControls: {
-            skipAdsAfterXSec: integer, // Rrpresent time by seconds (default: 5)
-        },
-        tvShowControls: {
-            skipIntroButton: boolean, // default: true,
-            nextEpisodeButton: boolean, // show next episode button on the end of actual episode / default: false
-            showEpisodeNavigationButton: boolean, // show buttons to navigate to past and next episode / default: true
-        }
+    // control properties
+    enablePlayButton: boolean, // default: true
+    enablePauseButton: boolean, // default: true
+    enableStopButton: boolean, // default: false
+    enablePlaybackSpeedControls: boolean, // default: false
+    enableStartOver: boolean, // default: false
+    adsControls: {
+        skipAdsAfterXSec: integer, // Rrpresent time by seconds (default: 5)
+    },
+    tvShowControls: {
+        skipIntroButton: boolean, // default: true,
+        nextEpisodeButton: boolean, // show next episode button on the end of actual episode / default: false
+        showEpisodeNavigationButton: boolean, // show buttons to navigate to past and next episode / default: true
     }
 />
 ```
