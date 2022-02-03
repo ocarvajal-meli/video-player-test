@@ -28,12 +28,12 @@ This is a beta version of properties and callbacks for Vide Player lib. This doc
 />
 ```
 
-## Callbacks
+## Example with callbacks
 
 ```jsx
 <VideoPlayer
     ...controls
     
-    onStop={handleFunction}
+    onStop={handleFunction} // triggered when stop reproduction event has been dispatched
 />
 ```
