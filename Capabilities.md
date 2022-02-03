@@ -17,7 +17,7 @@ This is a beta version of properties and callbacks for Vide Player lib. This doc
     enablePlaybackSpeedControls: boolean, // default: false
     enableStartOver: boolean, // default: false
     adsControls: {
-        skipAdsAfterXSec: integer, // Rrpresent time by seconds (default: 5)
+        skipAdsAfterXSec: integer, // Represents time in seconds (default: 5)
     },
     tvShowControls: {
         skipIntroButton: boolean, // default: true,
